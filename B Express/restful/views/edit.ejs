@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form for Editing a blog</h1>
+    <!-- middleware ka use kiya gya hai -->
+    <form action="/blogs/<%= founddummy.id%>?_method=patch" method="post">
+        
+        <label for="comment">COMMENT</label>
+        <input type="text" id="comment" name="Comment" value="<%= founddummy.Comment %>">
+        <br><br><hr><br><br>
+        <button>Edit COMMENT</button>
+    </form>
+
+
+
+
+    <!-- ab agar hum post ka use krenge to ek naya comment add ho jaaega jaise in case 3 m ho rha tha but hume add nahi krana hume to edit krna hai to hum use krenge put/patch ab hum edit k liye dono use krte hain put bhi or patch bhi to difference kya hai dono m difference hai bss put se sara ka sara data change ho jata hai or patch se kuch partial data change hota hai or is case m hume sirf comment ko change krna hai na ki username ko to hum use krenge app.patch() -->
+
+
+</body>
+</html>

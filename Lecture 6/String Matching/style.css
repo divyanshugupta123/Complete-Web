@@ -1,0 +1,22 @@
+/* a[href='https://google.com']{
+    color: green;
+} */
+
+
+/* starts with */
+a[href ^= 'https']{
+    color: red;
+}
+
+
+
+/* ends with */
+a[href $='org']{
+    border: 2px solid black;
+}
+
+
+/* present anywhere */
+a[href *= "://"]{
+    font-size: 60px;
+}

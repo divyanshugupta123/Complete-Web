@@ -1,0 +1,29 @@
+*{
+    margin: 0;padding: 0;
+}
+.parent{
+    width: 90vw;
+    height: 90vh;
+    border: 2px solid black;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 50px 100px 150px;
+
+    /* jo automatically row ko dimension mil rhi thi ab unhe hum is prop se 100 100 px de skte hain */
+    /* grid-auto-rows: 100px; */
+
+    /* grid-auto-flow: column; */
+
+
+
+}
+.child{
+    background-color: darkcyan;
+    border:2px solid black;
+}
+
+#i1{
+    grid-column: span 2;
+    background-color: rgb(144, 30, 30);
+}

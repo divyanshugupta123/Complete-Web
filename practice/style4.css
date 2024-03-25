@@ -1,0 +1,17 @@
+#img1{
+    width: 250px;
+    float: left;
+
+}
+
+#spec{
+    clear: left;
+}
+
+#img2{
+    width: 250px;
+    float: right;
+}
+#spec2{
+    clear: right;
+}

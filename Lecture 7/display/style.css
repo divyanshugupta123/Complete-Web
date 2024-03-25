@@ -1,0 +1,23 @@
+h3{
+    
+    width: 150px;
+    height: 200px;
+    background-color: lightblue;
+    display: inline-block;
+}
+span{
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    background-color: beige;
+}
+
+div{
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+}
+
+div:nth-of-type(2){
+    display: none;
+}

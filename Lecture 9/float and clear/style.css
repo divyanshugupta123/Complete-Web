@@ -1,0 +1,8 @@
+img{
+    width: 300px;
+    height: 500px;
+    float: right;
+}
+p:nth-of-type(2),p:nth-of-type(3){
+    clear: right;
+}

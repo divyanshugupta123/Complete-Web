@@ -1,0 +1,62 @@
+.sec{
+    width: 70vw;
+    border: 5px solid black;
+    height: 600px;
+    background-color: aquamarine;
+    margin:50px auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse;
+     */
+
+     /* this is the default value of justify content */
+     /* justify-content: flex-start; */
+
+     /* justify-content: center; */
+
+     /* justify-content: flex-end; */
+
+     /* justify-content: space-between; */
+
+     /* this will help to separate between all the div equally rather than the edges and sum of both the space edges is equal to all the other spaces */
+     /* justify-content:space-around; */
+
+     /* this will help to separate between all the div equally */
+     /* justify-content: space-evenly; */
+
+
+     /* if we decrease the sixe of our view port then the size of div decrease which is not good son to avoid that we use wrap property and the value of that is wrap */
+     flex-wrap: wrap;
+
+
+     /* align-items property used to shift the element along the cross axis */
+     /* align-items: flex-end; */
+     align-items: center;
+
+
+
+    /* align-content: space-around;  */
+
+
+}
+div{
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+
+
+
+div:nth-of-type(3){
+
+    flex-basis: 350px;
+
+}
+
+div:nth-of-type(2){
+    align-self: flex-start;
+}

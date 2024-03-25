@@ -1,0 +1,50 @@
+#abs{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+
+}
+
+/* relative units */
+/* % */
+
+
+/* .a1{
+    font-size: 200%;
+} */
+
+/* em */
+
+/* .emm{
+    font-size: 20px;
+}
+
+li{
+    font-size: 2em;
+
+} */
+
+
+
+/* rem */
+
+/* .emm{
+    font-size: 20px;
+}
+
+li{
+    font-size: 2rem;
+
+} */
+
+
+
+#dev{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+#d1{
+    background-color: beige;
+}

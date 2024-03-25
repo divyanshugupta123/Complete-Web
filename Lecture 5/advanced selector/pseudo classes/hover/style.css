@@ -1,0 +1,7 @@
+h2{
+    background-color: rgb(0, 0, 0);
+}
+
+h2:hover{
+    color: white ;
+}

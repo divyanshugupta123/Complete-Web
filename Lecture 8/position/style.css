@@ -1,0 +1,48 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+#static #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+
+    
+}
+
+#relative #middle{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute #middle{
+    /* this property position hide the 3rd div proper explaination is in the notebook */
+    position: absolute;
+
+    /* now this offset top changes with respect to body */
+    /* top: 100px; */
+}
+
+#fixed #middle{
+    position: fixed;
+    top: 100px;
+}
+
+#sticky{
+    height: 700px;
+    border: 2px solid black;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+    left: 100px;
+
+}

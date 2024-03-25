@@ -1,0 +1,9 @@
+
+section div p{
+    color:rgb(99, 224, 224);
+}
+
+/* this also works  */
+section p{
+    color:rgb(112, 172, 172);
+}

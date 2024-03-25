@@ -1,0 +1,9 @@
+section>div>p{
+    color: blue;
+}
+
+/* this will not work because it want just adjacent child */
+section>p{
+    color: antiquewhite;
+}
+

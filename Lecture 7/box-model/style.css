@@ -1,0 +1,37 @@
+.box{
+    width: 300px;
+    background-color: aqua;
+    height: 300px;
+    border: 5px dashed yellowgreen;
+
+    /* margin */
+    
+    /* it reflects the shift of element in all 4 direction */
+    /* margin: 40px; */
+
+
+    /* it will only shift the element only from left side */
+    /* margin-left: 30px; */
+
+
+    /* this is the short hand property of margin in which it follows the order :: top right bottom left */
+    margin: 20px 40px 60px 80px;
+
+    /* margin: 30px 60px 90px => it represent top l&r bottom */
+
+
+
+
+
+    /* padding */
+
+    /* padding: 50px; */
+
+    /* padding is also a short hand as well as long hand property */
+
+    padding: 30px 50px 70px 390px;
+
+    
+
+}
+

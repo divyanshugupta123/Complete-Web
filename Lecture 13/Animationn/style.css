@@ -1,0 +1,75 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.box:hover{
+    background-color: aqua;
+    animation-name: incheight;
+    /* this is so required to give the duration to it */
+    animation-duration: 2s;
+
+    animation-timing-function:ease-in ;
+
+    /* this will help to repeat the animation 2 times */
+    animation-iteration-count: 2;
+
+    /* this will start animate from 0% to 100% then 100% to 0% */
+    /* animation-direction: alternate; */
+
+    /* start from 100% */
+    /* animation-direction: alternate-reverse; */
+
+    /* animation khtm hone k baad yeh kis state m ruke  */
+    /* forward last step pr rokega */
+    animation-fill-mode: forwards;
+
+    animation-play-state: running;
+
+}
+
+/* @keyframes incheight{
+    from{
+        height: 100px;
+        background-color: blue;
+
+    }
+
+    all the intermediate "to" will not work only last "to" works
+    to{
+        height: 400px;
+        background-color: blueviolet;
+    }
+    to{
+        height: 500px;
+        background-color: red;
+    }
+
+    
+} */
+
+
+
+/* this is another way to add more than 1 states  */
+@keyframes incheight{
+    0%{
+        height: 100px;
+        background-color: blue;
+
+    }
+    10%{
+        width: 500px;
+    }
+    50%{
+        height: 900px;
+        background-color: green;
+    }
+    100%{
+        height: 500px;
+        background-color: red;
+    }
+
+    
+}

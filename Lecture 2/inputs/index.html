@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUTS</title>
+</head>
+
+<body>
+    <h1>INPUTS</h1>
+
+    <fieldset>
+        <legend>Input example</legend>
+        <!-- label helps us to directly reach to that folder on clicking only on Name -->
+        <label for="naam">Name : </label>
+
+        <!-- placeholder is used for hint -->
+        <input type="text" id="naam" placeholder="enter your name here">
+
+        <br><br>
+
+        <label for="pass">Password : </label>
+        <input type="password" id="pass" placeholder="Enter your Password">
+
+        <br><br>
+
+        <!-- disabled is used to disable or not to type the data -->
+        E-mail :
+        <input disabled type="email">
+
+        <br><br>
+        <Button>sumbit</Button>
+
+        Date :
+        <input type="date">
+
+        color :
+        <input type="color">
+
+        time :
+        <input type="time">
+
+        Number :
+        <input type="number">
+
+        telephone :
+        <input type="tel" maxlength="10">
+
+        Range :
+        <input type="range">
+
+        <br><br>
+
+        <label for="check">Checkbox :</label>
+        <input type="checkbox" id="check">
+
+
+        <!-- radio is used for having only one right answer -->
+
+        Gender :
+        <label for="aadmi">MALE : </label>
+        <input type="radio" name="gen" id="aadmi">
+
+        <label for="aaurat">FEMALE:</label>
+        <input type="radio" name="gen" id="aaurat">
+
+
+
+        <!-- creating a dropdown -->
+
+        select your birth month :
+        <select>
+            <option>JAn</option>
+            <option selected>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+        </select>
+
+    </fieldset>
+
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+div::first-letter{
+    font-size: 50px;
+    color:aqua
+}
+p::first-line{
+    color: wheat;
+}
+
+/* it doesn't reflect any changes because span is a inline element */
+
+/* pseudo elements only works on block element */
+span::first-letter{
+    color: aquamarine;
+}
+
+a[href='https://google.com']::after{
+    content: "hi I'm your Divyanshu";
+}
+a[href='https://instagram.com']::before{
+    content:'\1f4f1';
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}

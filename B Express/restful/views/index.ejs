@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Display all the blogs</h1>
+
+    <% for(let i of dummy) { %>
+        <h1>ID : <%= i.id %></h1>
+        <h2>NAME : <%= i.username %></h2>
+        <h3>COMMENT : <%= i.Comment %></h3>
+        <a href="/blogs/<%= i.id %>">show</a>
+        <br>
+        <a href="/blogs/<%= i.id %>/edit">edit</a>
+        <br>
+
+        <!-- ab hume delete krna hai pr hum direct kr nahi skte to hum ek form m bnaenge jo ki post hoga to use method override kr denge -->
+       
+        <form action="/blogs/<%= i.id %>?_method=delete" method="post">
+            <button>DELETE</button>
+        </form>
+        <% } %>
+
+</body>
+</html>
